@@ -214,7 +214,7 @@ export const orderNotification = (data:OrderDataType) => {
 																style="width:100%;padding-right:0px;padding-left:0px;">
 																<div align="center" class="alignment">
 																	<div style="max-width: 248px;"><img alt="Logo"
-																			height="auto" src="https://res.cloudinary.com/dubhpzpkf/image/upload/v1763617645/logo-black_ckehrf.webp"
+																			height="auto" src="https://res.cloudinary.com/dubhpzpkf/image/upload/v1767450985/zsu1zyznxakvaec5ehto.png"
 																			style="display: block; height: auto; border: 0; width: 100%;"
 																			title="Logo" width="248" /></div>
 																</div>
@@ -289,7 +289,7 @@ export const orderNotification = (data:OrderDataType) => {
 																style="width:100%;padding-right:0px;padding-left:0px;">
 																<div align="center" class="alignment">
 																	<div style="max-width: 13px;"><img alt="Check"
-																			height="auto" src="https://res.cloudinary.com/dubhpzpkf/image/upload/v1763617644/check-orange_urkodg.webp"
+																			height="auto" src="https://res.cloudinary.com/dubhpzpkf/image/upload/v1767450986/c8rctnb7khyeaftkyc97.png"
 																			style="display: block; height: auto; border: 0; width: 100%;"
 																			title="Check" width="13" /></div>
 																</div>
@@ -430,7 +430,7 @@ export const orderNotification = (data:OrderDataType) => {
 																<div align="center" class="alignment">
 																	<div style="max-width: 130px;"><img
 																			alt="a hand with a star" height="auto"
-																			src="https://res.cloudinary.com/dubhpzpkf/image/upload/v1763617645/order-conf-icon_cemu3t.webp"
+																			src="https://res.cloudinary.com/dubhpzpkf/image/upload/v1767450985/isfpyrayaibcxli5leiv.png"
 																			style="display: block; height: auto; border: 0; width: 100%;"
 																			title="a hand with a star" width="130" />
 																	</div>
@@ -529,7 +529,7 @@ export const orderNotification = (data:OrderDataType) => {
 																					href="https://www.facebook.com/"
 																					target="_blank"><img alt="facebook"
 																						height="auto"
-																						src="https://res.cloudinary.com/dubhpzpkf/image/upload/v1763617644/facebook2x_csw5wi.webp"
+																						src="https://res.cloudinary.com/dubhpzpkf/image/upload/v1767450985/kxomyux8mx7ceoaibdm1.png"
 																						style="display: block; height: auto; border: 0;"
 																						title="facebook"
 																						width="32" /></a></td>
@@ -537,7 +537,7 @@ export const orderNotification = (data:OrderDataType) => {
 																					href="https://www.twitter.com/"
 																					target="_blank"><img alt="twitter"
 																						height="auto"
-																						src="https://res.cloudinary.com/dubhpzpkf/image/upload/v1763617644/twitter2x_ouiyts.webp"
+																						src="https://res.cloudinary.com/dubhpzpkf/image/upload/v1767450985/ovqorv4ek0rjq3lstble.png"
 																						style="display: block; height: auto; border: 0;"
 																						title="twitter"
 																						width="32" /></a></td>
@@ -545,7 +545,7 @@ export const orderNotification = (data:OrderDataType) => {
 																					href="https://www.instagram.com/"
 																					target="_blank"><img alt="instagram"
 																						height="auto"
-																						src="https://res.cloudinary.com/dubhpzpkf/image/upload/v1763617645/instagram2x_lkkydd.webp"
+																						src="https://res.cloudinary.com/dubhpzpkf/image/upload/v1767450985/ce9c9w2udk4jb2ipvmwe.png"
 																						style="display: block; height: auto; border: 0;"
 																						title="instagram"
 																						width="32" /></a></td>

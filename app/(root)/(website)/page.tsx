@@ -33,7 +33,7 @@ export default function Home() {
       </section>
       <FeaturedProducts />
       <section className="sm:pt-20 pt-5 pb-10">
-        <Image src={FilePath.Advertisement.src} alt="Advertisement" width={FilePath.Advertisement.width} height={FilePath.Advertisement.height} />
+        <Image className='w-full h-full' src={FilePath.Advertisement.src} alt="Advertisement" width={FilePath.Advertisement.width} height={FilePath.Advertisement.height} />
       </section>
       <Testimonal />
 
