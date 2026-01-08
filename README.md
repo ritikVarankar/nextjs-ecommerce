@@ -1,10 +1,8 @@
 <div align="center">
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white)
-![React Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white)
+<p align="center">
+![heading](https://github.com/user-attachments/assets/679c1a43-8957-47c5-be9a-b004f6c41aa4)
+</p>
 
 <h2 align="center">🛒 Full-Stack E-Commerce Website</h2>
 <p align="center">Modern eCommerce platform built with Next.js (App Router)</p>
