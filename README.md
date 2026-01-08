@@ -97,12 +97,11 @@ This project was built for **learning, practice, and portfolio purposes**, follo
 
 | Page | Preview |
 |-----|--------|
-| Home Page | (https://github.com/user-attachments/assets/6a68510a-693b-4aef-aed0-c0a3a8dd1c07) |
-| Product Page | `[Add screenshot](https://github.com/user-attachments/assets/a3bac1aa-eb2b-4905-ae74-c2c05e9dd8bc)` |
+| Home Page | <img width="2561" height="3333" alt="Home" src="https://github.com/user-attachments/assets/6a68510a-693b-4aef-aed0-c0a3a8dd1c07" /> |
+| Product Page | <img width="2561" height="3333" alt="ProductDetails" src="https://github.com/user-attachments/assets/a3bac1aa-eb2b-4905-ae74-c2c05e9dd8bc" /> |
 | Cart | `Add screenshot` |
 | Checkout | `Add screenshot` |
 | Admin Dashboard | `Add screenshot` |
-<img width="2561" height="3333" alt="ProductDetails" src="https://github.com/user-attachments/assets/a3bac1aa-eb2b-4905-ae74-c2c05e9dd8bc" />
 
 ---
 
