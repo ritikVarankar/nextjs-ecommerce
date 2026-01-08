@@ -9,7 +9,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
-import { WEBSITE_CART, WEBSITE_PRODUCT_DETAILS, WEBSITE_SHOP } from "@/routes/WebsiteRoute";
+import { WEBSITE_CART, WEBSITE_LOGIN, WEBSITE_PRODUCT_DETAILS, WEBSITE_SHOP } from "@/routes/WebsiteRoute";
 import Link from "next/link";
 import Image from "next/image";
 import { FilePath } from "@/lib/ExportFiles";
@@ -33,6 +33,7 @@ interface ProductDetailProps{
 }
 const ProductDetail = ({ product, variant, colors, sizes, reviewCount }:ProductDetailProps) => {
   const disPatch = useDispatch();
+  const { auth } = useSelector((state:RootState)=>state.authStore);
   const cartStore = useSelector((state:RootState)=>state.cartStore);
   const [activeThumb, setActiveThumb] = useState<string>('');
   const [quantity, setQuantity] = useState<number>(1);
@@ -247,22 +248,41 @@ const ProductDetail = ({ product, variant, colors, sizes, reviewCount }:ProductD
             </div>
           </div>
           <div className="mt-5">
-            {!isAddedIntoCart ? (
-              <ButtonLoading
-                type="button"
-                text={"Add To Cart"}
-                className="w-full rounded-full py-6 text-md cursor-pointer"
-                onClick={handleAddToCart}
-              />
-            ) : (
-              <Button
-                className="w-full rounded-full py-6 text-md cursor-pointer"
-                type="button"
-                asChild
-              >
-                <Link href={WEBSITE_CART}>Go To Cart</Link>
-              </Button>
-            )}
+            {
+              !auth ? (
+                <>
+                  <p className="mb-2">Please log in to add items to your cart.</p>
+                  <Button
+                    type="button"
+                    className="w-full rounded-full py-6 text-md cursor-pointer"
+                    asChild
+                  >
+                    <Link href={`${WEBSITE_LOGIN}`}>Login</Link>
+                  </Button>
+                </>
+
+              ) : (
+                !isAddedIntoCart ? (
+                  <ButtonLoading
+                    type="button"
+                    text={"Add To Cart"}
+                    className="w-full rounded-full py-6 text-md cursor-pointer"
+                    onClick={handleAddToCart}
+                  />
+                ) : (
+                  <Button
+                    className="w-full rounded-full py-6 text-md cursor-pointer"
+                    type="button"
+                    asChild
+                  >
+                    <Link href={WEBSITE_CART}>Go To Cart</Link>
+                  </Button>
+                )
+              )
+            }
+
+            
+
           </div>
         </div>
       </div>
