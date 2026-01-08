@@ -1,7 +1,12 @@
 <div align="center">
 
 <p align="center">
-![heading](https://github.com/user-attachments/assets/679c1a43-8957-47c5-be9a-b004f6c41aa4)
+  <img
+    src="https://github.com/user-attachments/assets/679c1a43-8957-47c5-be9a-b004f6c41aa4"
+    width="525"
+    height="47"
+    alt="heading"
+  />
 </p>
 
 <h2 align="center">🛒 Full-Stack E-Commerce Website</h2>
