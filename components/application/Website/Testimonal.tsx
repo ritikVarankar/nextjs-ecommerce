@@ -5,6 +5,7 @@ import Slider, { CustomArrowProps } from "react-slick";
 import { LuChevronLeft, LuChevronRight } from "react-icons/lu";
 import { IoStar } from "react-icons/io5";
 import { BsChatQuote } from "react-icons/bs";
+import { useState, useEffect } from "react";
 
 const ArrowNext = (props: CustomArrowProps) => {
     const { onClick } = props;
@@ -105,13 +106,21 @@ I would confidently recommend this to others.`,
 ];
 
 const Testimonal = () => {
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
     const settings = {
         dots: true,
         infinite: true,
         speed: 500,
         autoplay: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToShow: windowWidth < 480 ? 1 : windowWidth < 600 ? 2 : windowWidth < 1024 ? 3 : 4,
+        slidesToScroll: windowWidth < 480 ? 1 : windowWidth < 600 ? 2 : windowWidth < 1024 ? 3 : 4,
         nextArrow: <ArrowNext />,
         prevArrow: <ArrowPrevious />,
         responsive: [
